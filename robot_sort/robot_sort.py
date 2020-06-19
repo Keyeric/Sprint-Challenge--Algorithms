@@ -96,8 +96,13 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-        # Fill this out
-        pass
+        # start at beginning of list, holding nothing(light off)and grab the zero index(light on)
+        # check if can move right, if not, list is sorted: celebrate
+        # move to the right once and compare held item with index next index
+        # if held item is lower than compared, swap
+        # if held item is higher than compared, move to the right until it is not
+        # if CAN NOT MOVE RIGHT and swap happened, start over at index zero
+        # continue until no swaps occur, celebrate
 
 
 if __name__ == "__main__":
